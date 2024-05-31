@@ -1,0 +1,4 @@
+mistralai
+streamlit 
+python-dotenv
+ruff

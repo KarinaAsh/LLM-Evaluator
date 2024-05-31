@@ -1,0 +1,91 @@
+line-length = 88
+
+[lint]
+select = [
+    "E",  # pycodestyle - error
+    "W",  # pycodestyle - warning
+    "D", # pydocstyle 
+    "F",  # Pyflakes
+    "PL", # PyLint
+    "UP",  # pyupgrade
+    "N", # pep-8 naming
+    "I",  # isort
+    "PD", # pandas-vet
+    "NPY", # NumPy-specific rules
+    "PERF", # Perflint
+
+    # --- flake-8 ---
+    # "ANN", # flake8-annotations --> really important but too many errors, do step-by-step
+    "ARG", # flake8-unused-arguments
+    "SIM",  # flake8-simplify
+    "A", # flake8-builtins
+    "C4", # flake8-comprehensions
+    "PYI", # flake8-pyi
+    "PT", # flake8-pytest-style
+    "ISC", # flake8-implicit-str-concat
+    "ICN", # flake8-import-conventions
+    "PIE", # flake8-pie
+    "T20", # flake8-print
+    "RET", # flake8-return
+    "TID", # flake8-tidy-imports
+    "TCH", # flake8-type-checking
+    "B", # flake8-bugbear
+]
+
+ignore = [
+    "E501", # line-too-long
+    "E101", # mix-spaces-and-tabs
+    "E722", # bare-except
+    "E203", # whitespace-before-punctuation
+    "W191", # tab-indentation --> conflict with formatter
+    "PLR2004", # magic-value-comparison --> important but too many errors
+    "ISC001", # single-line-implicit-string-concatenation
+
+    # --- Docstring ---
+    # D100, D102 and D103 can be commented to make sure every function/classe is documented
+    "D100", # undocumented-public-module
+    "D102", # undocumented-public-method
+    "D103", # undocumented-public-function 
+    "D203", # one-blank-line-before-class
+    "D212", # multi-line-summary-first-line
+    "D206", # indent-with-space
+    "D401", # non-imperative-mood
+    "D205", # blank-line-after-summary
+    "D107", # undocumented-public-init
+
+    # --- Should be used as a warning ---
+    # The following can be uncommented to check the code readability 
+    # Or set as a severity = "warning" which is not currently avaiblable by ruff
+    "PLR0911", # too-many-return-statements
+    "PLR0912", # too-many-branches
+    "PLR0913", # too-many-arguments
+    "PLR0915", # too-many-statements
+]
+
+extend-safe-fixes = ["C", "D", "A", "W291"]
+
+[lint.extend-per-file-ignores]
+"**/validation/*.py" = ["T201", "A"]
+"**/__init__.py" = ["D"]
+"**/tests/*.py" = ["ANN201", "ANN001", "D"]
+
+[format]
+quote-style = "double"
+indent-style = "tab"
+docstring-code-format = true
+exclude = [
+    # Rules conflicting with the linter
+    "E111",  # indentation-with-invalid-multiple
+    "E114",  # indentation-with-invalid-multiple-comment
+    "E117",  # over-indented
+    "D206",  # indent-with-spaces
+    "D300",  # triple-single-quotes
+    "Q000",  # bad-quotes-inline-string
+    "Q001",  # bad-quotes-multiline-string
+    "Q002",  # bad-quotes-docstring
+    "Q003",  # avoidable-escaped-quote
+    "COM812",  # missing-trailing-comma
+    "COM819",  # prohibited-trailing-comma
+    "ISC001",  # single-line-implicit-string-concatenation
+    "ISC002"   # multi-line-implicit-string-concatenation
+]

@@ -1,0 +1,12 @@
+.venv
+.env
+**/__pycache__/
+.ipynb_checkpoints/
+*.ipynb
+.vscode
+.DS_Store
+.pytest_cache
+.python-version
+.output/
+notebooks
+.csv
