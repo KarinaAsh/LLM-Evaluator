@@ -1,13 +1,14 @@
 # LLM-Evaluator
 
 This project was developped as a part of [Mistral AI Paris Hackathon](https://mistralparishack.devpost.com/)
-
+This event is hosted by Mistral AI, Cerebral Valley & Station F.
 Project pitch is available at https://devpost.com/software/genies
-![alt text](https://github.com/judymath/mistral-genies-hackathon/blob/main/header.png)
+
+![alt text](img/header.png)
 #  Comprehensive AI Chatbot Evaluation Platform 
 
 Welcome to the MistralJudge repository! This project is designed to provide comprehensive evaluations for AI chatbots, customized for various industry use cases. MistralJudge leverages the power of Mistral AI models and provides an interactive user interface built with Streamlit.
-![alt text](https://github.com/judymath/mistral-genies-hackathon/blob/main/mistraljudge.png)
+![alt text](img/mistraljudge.png)
 
 ## Table of Contents
 
@@ -39,8 +40,16 @@ You can use Mistral Judge before deployment to generate relevant test samples ba
 ### Access the Online Streamlit App
 Open your web browser and navigate to the URL https://garkavem-mistral-genies-hackathon-main-lipp61.streamlit.app/.
 
-Use the interactive interface to configure evaluation parameters, generate test samples, and view analysis results.
+After providing your Mistral API key, you can use the interactive interface to configure evaluation parameters, generate test samples, and view analysis results.
+First part: 
+![alt text](img/streamlit_interface1.png)
+Example of dataset generation:
+![alt text](img/dataset_generation.png)
 
+Second part:
+![alt text](img/Chatbot_Analysis1.png)
+Example of evaluation:
+![alt text](img/chatbot_analysis.png)
 
 ## Python environment
 
@@ -56,3 +65,7 @@ Then to activate the virtual environment :
 ## Contact
 
 For questions, feedback, or suggestions, please open an issue on GitHub 
+-  [Siwar ABBES](https://www.linkedin.com/in/siwar-abbes/)
+-  [Karina Ashurbekova ](https://www.linkedin.com/in/karina-ashurbekova/)
+-  [Xinyu (Judy) LAI](https://www.linkedin.com/in/xinyu-lai-hec-paris/)
+-  [Marie Garkavenko](https://www.linkedin.com/in/garkavenko-m/)
