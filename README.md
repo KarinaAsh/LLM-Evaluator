@@ -1,14 +1,13 @@
 # LLM-Evaluator
 
-This project was developped as a part of [Mistral AI Paris Hackathon](https://mistralparishack.devpost.com/)
+This project was developped as a part of [Mistral AI Paris Hackathon](https://mistralparishack.devpost.com/).
 This event is hosted by Mistral AI, Cerebral Valley & Station F.
-
-
 ![alt text](img/header.png)
 
 #  Comprehensive AI Chatbot Evaluation Platform 
 
 Welcome to the MistralJudge repository! This project is designed to provide comprehensive evaluations for AI chatbots, customized for various industry use cases. MistralJudge leverages the power of Mistral AI models and provides an interactive user interface built with Streamlit.
+
 ![alt text](img/mistraljudge.png)
 
 ## Table of Contents
@@ -43,14 +42,14 @@ Open your web browser and navigate to the URL https://garkavem-mistral-genies-ha
 
 After providing your Mistral API key, you can use the interactive interface to configure evaluation parameters, generate test samples, and view analysis results.
 First part: 
-![alt text](img/streamlit_interface1.png)
+![alt text](img/streamlit_interface1.PNG)
 Example of dataset generation:
-![alt text](img/dataset_generation.png)
+![alt text](img/dataset_generation.PNG)
 
 Second part:
-![alt text](img/Chatbot_Analysis1.png)
+![alt text](img/Chatbot_Analysis1.PNG)
 Example of evaluation:
-![alt text](img/chatbot_analysis.png)
+![alt text](img/chatbot_analysis.PNG)
 
 
 ## What's next for MistralJudge
