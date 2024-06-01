@@ -49,7 +49,7 @@ Example of dataset generation:
 Second part:
 ![alt text](img/Chatbot_Analysis1.PNG)
 Example of evaluation:
-![alt text](img/chatbot_analysis.PNG)
+![alt text](img/Chatbot_Analysis.PNG)
 
 
 ## What's next for MistralJudge
