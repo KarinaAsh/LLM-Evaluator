@@ -2,7 +2,7 @@
 
 This project was developped as a part of [Mistral AI Paris Hackathon](https://mistralparishack.devpost.com/)
 This event is hosted by Mistral AI, Cerebral Valley & Station F.
-Project pitch is available at https://devpost.com/software/genies
+
 
 ![alt text](img/header.png)
 #  Comprehensive AI Chatbot Evaluation Platform 
