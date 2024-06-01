@@ -5,6 +5,7 @@ This event is hosted by Mistral AI, Cerebral Valley & Station F.
 
 
 ![alt text](img/header.png)
+
 #  Comprehensive AI Chatbot Evaluation Platform 
 
 Welcome to the MistralJudge repository! This project is designed to provide comprehensive evaluations for AI chatbots, customized for various industry use cases. MistralJudge leverages the power of Mistral AI models and provides an interactive user interface built with Streamlit.
@@ -51,16 +52,9 @@ Second part:
 Example of evaluation:
 ![alt text](img/chatbot_analysis.png)
 
-## Python environment
 
-The python environment must be `python3.10` and it can be created using the following command :
-`python -m venv .venv`
-or
-`python3.10 -m venv .venv`
-
-Then to activate the virtual environment :
-- on UNIX --> `source .venv/bin/activate`
-- on Windows powershell --> `.\.venv\Scripts\activate`
+## What's next for MistralJudge
+We believe this area represents a significant and important task that will grow rapidly alongside the business's needs and expansion. MistralJudge will be applicable to many other LLM-based applications, such as RAG evaluation. Additionally, we can enhance our project by allowing users to add documents with guidelines, from which MistralJudge can extract relevant metrics. Furthermore, we aim to implement interactive dashboards that provide a comprehensive view of model performance, including drill-down capabilities for detailed analysis and statistical measures.
 
 ## Contact
 
