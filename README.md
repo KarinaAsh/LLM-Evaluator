@@ -45,7 +45,7 @@ After providing your Mistral API key, you can use the interactive interface to c
 ![alt text](img/streamlit_interface1.PNG)
 
 Based on the selected metrics, here are some examples of generated user inputs
-![alt text](img/dataset_generation.png)
+![alt text](img/dataset_generation1.png)
 
 #### Second part:
 ![alt text](img/Chatbot_Analysis1.PNG)
